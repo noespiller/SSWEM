@@ -1162,16 +1162,27 @@
               "angle": 0,
               "id": "78d4e7a0-7349-4237-820e-7f521a3a5a78",
               "z": 3,
-              "hasOpenThreats": false,
+              "hasOpenThreats": true,
+              "threats": [
+                {
+                  "status": "Open",
+                  "severity": "Medium",
+                  "modelType": "STRIDE",
+                  "title": "Test Threat",
+                  "description": "Bla",
+                  "type": "Repudiation",
+                  "threatId": "9aca99ae-d5ac-4e5c-857d-5fc6094f4f27"
+                }
+              ],
               "attrs": {
                 ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
+                  "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
                   "text": "Webserver"
                 },
                 ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
+                  "class": "element-text hasOpenThreats isInScope"
                 }
               }
             },
